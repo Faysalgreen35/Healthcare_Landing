@@ -284,36 +284,52 @@ const Home = () => {
                 </div>
             </section>
 
-            {/* <section>
+            <section>
                 <div>
-                    <div className="card bg-[#02004388] image-full w-full shadow-xl">
-                        <figure>
-                            <img
-                                src={Rectangle32}
-                                alt="Retangles2" />
-                        </figure>
-                        <div className="card-body relative">
-                            <img className='w-24 mr-0 absolute right-4' src={logo_dark} alt="" />
-                            <h2 className=" text-6xl w-1/2  font-bold">Get Your
-                                First Appointment
-                                <br />at 50% Off</h2>
+                <button className='btn ml-2 bg-white rounded-3xl px-8 border border-black '>FAQ</button>
+                    
+                    <h1 className=' text-3xl font-bold py-12'>  Frequntly Asked Question</h1>
 
-                            <div className="card-actions">
-                                <div className="navbar-end ">
-                                    <a className="btn border-none mt-12  bg-[#FFC637] border-black rounded-xl">Appointment<span><img src={arrow1} alt="" /></span>
-
-
-                                    </a>
-                                    <button className='btn ml-2  text-white btn-outline rounded-xl px-8 border border-white '>Learn more <span><img src={arrow3} alt="" /></span> </button>
-                                </div>
-                            </div>
+                    <div className="collapse collapse-arrow bg-base-200 my-5">
+                        <input type="radio" name="my-accordion-2" defaultChecked />
+                        <div className="collapse-title text-xl font-medium"> What are your office hours?</div>
+                        <div className="collapse-content">
+                            <p>Our office hours vary by location, but typically we are open Monday through Friday from 8:00 AM to 5:00 PM. Some locations may offer extended hours or weekend appointments. Please contact your nearest clinic for specific hours.</p>
+                        </div>
+                    </div>
+                    <div className="collapse collapse-arrow bg-base-200 my-5">
+                        <input type="radio" name="my-accordion-2" />
+                        <div className="collapse-title text-xl font-medium">What should I bring to my appointment?</div>
+                        <div className="collapse-content">
+                            <p>hello</p>
+                        </div>
+                    </div>
+                    <div className="collapse collapse-arrow bg-base-200 my-5">
+                        <input type="radio" name="my-accordion-2" />
+                        <div className="collapse-title text-xl font-medium">Do you accept insurance?</div>
+                        <div className="collapse-content">
+                            <p>hello</p>
+                        </div>
+                    </div>
+                    <div className="collapse collapse-arrow bg-base-200 my-5">
+                        <input type="radio" name="my-accordion-2" />
+                        <div className="collapse-title text-xl font-medium">How can I schedule an appointment?</div>
+                        <div className="collapse-content">
+                            <p>hello</p>
+                        </div>
+                    </div>
+                    <div className="collapse collapse-arrow bg-base-200 my-5">
+                        <input type="radio" name="my-accordion-2" />
+                        <div className="collapse-title text-xl font-medium">Do you accept insurance?</div>
+                        <div className="collapse-content">
+                            <p>hello</p>
                         </div>
                     </div>
                 </div>
-            </section> */}
+            </section>
             <section className='m-4 py-24'>
                 <div>
-                    <div className="card bg-custom-gradient image-full w-full shadow-xl">
+                    <div className="card bg-gradient-to-r from-cyan-500 to-blue-500 image-full w-full shadow-xl">
                         <figure>
                             <img src={Rectangle32} alt="Rectangles2" />
                         </figure>
